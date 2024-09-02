@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-df = pd.read_csv("C:\\Users\\BHUVANESWAR\\OneDrive\\Desktop\\yunus.csv")
+df = pd.read_csv("yunus.csv")
 X = df[['intercept', 'i', 'j', 'k']].values
 y = df['l'].values
 XT = X.T
